@@ -19,7 +19,7 @@ body {
 header {
     
     height: 200px;
-    background-color: #333; /* Color de fondo del encabezado */
+    background-color: #888; /* Color de fondo del encabezado */
     color: #fff; /* Color del texto */
     padding: 10px 100px 10px 80px; /* Espaciado interno */
     display: flex; /* Mostrar elementos en línea */
@@ -711,4 +711,5 @@ nav a {
             background-color: rgba(255, 255, 255, 0.486);
             
         }
+
         
