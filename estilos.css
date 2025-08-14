@@ -19,13 +19,24 @@ body {
 header {
     
     height: 200px;
-    background-color: #888; /* Color de fondo del encabezado */
+    background-color: #333; /* Color de fondo del encabezado */
     color: #fff; /* Color del texto */
     padding: 10px 100px 10px 80px; /* Espaciado interno */
     display: flex; /* Mostrar elementos en línea */
     justify-content: space-between; /* Distribuir los elementos horizontalmente */
     align-items: center; /* Centrar verticalmente los elementos */
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+     
+
+    /*aqui se modifico*/
 }
+
+
+
+
+
+
 
 /* Estilos para el logo */
 #logo {
@@ -280,9 +291,26 @@ nav a {
     height:  100vh;
     display: flex;
     justify-content: space-between;
-    align-items: center
-    ;padding: 20px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0;
+
+    /*aqui modifique*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Imagen del logo */
 .footer-logo-img {
   width: 600px;
@@ -711,5 +739,4 @@ nav a {
             background-color: rgba(255, 255, 255, 0.486);
             
         }
-
         
